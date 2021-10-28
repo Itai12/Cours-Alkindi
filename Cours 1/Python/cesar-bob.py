@@ -11,5 +11,5 @@ def dechiffre(lettre,clef):
 for lettre in alphabet:
     message_dechiffre=""
     for i in message_chiffre:
-        message_dechiffre+=dechiffre(i,clef)
+        message_dechiffre+=dechiffre(i,lettre)
     print(message_dechiffre)
